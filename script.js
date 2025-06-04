@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navLinksContainer.classList.toggle('active');
         hamburger.classList.toggle('active');
     });
-
+    
     // Close mobile menu when clicking a link
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
